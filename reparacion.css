@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Estilos para los encabezados */
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ /* Estilos para las listas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+  }
+  
+  /* Estilo para la lista */
+  ul.square-list {
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  ul.square-list li {
+    margin-bottom: 10px;
+    background-color: #ff8800;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  ul.square-list li span {
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Estilos para las imágenes */
+  section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff8800;
+  }
+/* Estilos generales */
+/* ... (otros estilos) ... */
+
+/* Estilos para las secciones */
+.content-section {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .list-container {
+    flex: 1; /* Ocupar espacio disponible */
+    padding-right: 25px; /* Espacio entre la lista y la imagen */
+  }
+  
+  .image-container {
+    flex: 1; /* Ocupar espacio disponible */
+  }
+  /* ... (otros estilos) ... */
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff8800;
+}
+
+/* Estilos específicos para el enlace de WhatsApp */
+footer a.whatsapp-link {
+  display: inline-block;
+  margin-left: 10px; /* Ajusta el margen izquierdo según tus preferencias */
+}

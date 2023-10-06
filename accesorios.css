@@ -1,0 +1,75 @@
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Cambio en los estilos de los títulos de las secciones */
+  h1 {
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Nuevo estilo de fondo para los títulos de las secciones */
+  section h1 {
+    background-color: #ff8800;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  figcaption {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff8800;
+  }
+  
